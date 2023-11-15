@@ -29,7 +29,8 @@ The detail coding on python of Model training, hyper parameter tunning, evaluati
 1. Comparison of Model Performance
 <img width="536" alt="Model Comparison" src="https://github.com/yasiSriLanka/dsc-capstone-loan-default-prediction/assets/141664072/fefa10c5-02c3-4112-bc10-3fe4b5e404b8">
 
-2. DefaultShield : XG Boost Classifier Model Performance
+2. DefaultShield : XG Boost Classifier Model Performance on Unseen Data
+   
    <img width="560" alt="Final Model Performance" src="https://github.com/yasiSriLanka/dsc-capstone-loan-default-prediction/assets/141664072/4c161705-a9fa-4e9f-b8b9-2de16308fb38">
 
    
