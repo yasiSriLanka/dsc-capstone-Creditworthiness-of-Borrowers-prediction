@@ -41,18 +41,18 @@ It is recommended XGBoost as the best model with test score of 0.819 and logloss
 ###Final Recommendation : DefaultShield
 XGBoost classifier with following parameters
 
-booster='gbtree' 
+booster='gbtree'
 
-learning_rate=0.1 
+learning_rate=0.1
 
-max_depth=10 
+max_depth=10
 
-n_estimators = 175 
+n_estimators = 175
 
-reg_lambda =1 
+reg_lambda =1
 
-colsample_bytree=0.5 
+colsample_bytree=0.5
 
-subsample=0.8 
+subsample=0.8
 
 The model achieved accuracy of 0.82 with f1 score on crossvalidation of 0.531. The reported logloss on unseen data was 0.40.
