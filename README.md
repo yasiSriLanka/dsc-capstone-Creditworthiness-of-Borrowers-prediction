@@ -8,12 +8,32 @@ Creditworthiness prediction is of paramount importance in the financial industry
 
 ## Data Understanding and Analysis
 
-##Source of Data
+**Source of Data**
 The source for data is personal loan portfolio provided in the [Kaggle](https://www.kaggle.com/datasets/gauravduttakiit/bank-fears-loanliness).
 
-##Instruction to save the database and run notebooks.
+**Instruction to save the database and run notebooks**
 1. Download the database from [Kaggle](https://www.kaggle.com/datasets/gauravduttakiit/bank-fears-loanliness)
-2. There are three files in the download. Out of which select **train_indessa.csv** file and save the file in the **Data folder** in the name of **Loan_Default.csv** 
+2. There are three files in the download. Out of which select **train_indessa.csv** file and save the file in the **Data folder** in the name of **Loan_Default.csv**
+
+**Description of Data**
+The dataset contained 532K records of customer loan portfolio. The dataset contained 26 variables covering loan amount, interest rate,term, loan purpose, application status, verification status,dti etc. Also contained applicants charactoristics such as credit gradings, state, home ownership, no of inquiries, revolving balances etc. The dataset contained 16 numerical variables, 9 categorical and 1 boolean data column. 
+
+**Feature Engineering**
+The dataset didnot contained loan installment. Therefore calculated the loan installment using numpy method. Also derived different related ratios annual loan installment to annual income and loan to annual income ratios.
+
+##Method
+
+**Data Clensing**
+Started the analysis understanding the data and premilinary EDA for better understanding the behaviour of the data set. Variable wise dig through to understand data behaviour and identified strategies like mean, median, most frequent to handle missing values based on the distributions of data. The imputations were done using pipeline methodology after segregating the data frame into train and test subsets. Then clense train and test data set exported to Data folder.
+
+The detail process of data cleansing and imputation can access through the [EDA and Data_Clensing Notebook](https://github.com/yasiSriLanka/dsc-capstone-loan-default-prediction/blob/main/EDA%20and%20Data_Clensing.ipynb)
+
+** Model Development
+
+
+
+
+
 
 ## Fitted models are
 1. Dummy Model
