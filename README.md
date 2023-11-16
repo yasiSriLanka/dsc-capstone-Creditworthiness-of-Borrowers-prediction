@@ -42,6 +42,7 @@ Defined pipeline for scaling, column transfer and onehotencoding.
 In order to ease iterative model building process two functions defined.
 
 1.model_eval - build the model and evaluate the model based on test, logloss, classification summary, confusion matrix and area under ROC curve.
+
 2.model_eff - Evaluate the model based on test, logloss, classification summary, confusion matrix and area under ROC curve.
 
 The iteratively process carried out trying different models while observing the model performance. The used grid search had been used optimize the model by hypertunning parameters.  
@@ -49,7 +50,7 @@ After analysing the model performance final model was selected considering the s
 
 The final model again trained with the combined dataset of train and test. Then validated model performance on the unseen data.
 
-** The fitted models are as follows.
+** The fitted models are as follows.**
 1. Dummy Model
 2. Logistic Regression
 3. Logistic Regression with polinomial features
