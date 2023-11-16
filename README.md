@@ -33,7 +33,7 @@ The dataset didnot contained loan installment. Therefore calculated the loan ins
 
 Started the analysis understanding the data and premilinary EDA for better understanding the behaviour of the data set. Variable wise dig through to understand data behaviour and identified strategies like mean, median, most frequent to handle missing values based on the distributions of data. The imputations were done using pipeline methodology after segregating the data frame into train and test subsets. Then clense train and test data set exported to Data folder.
 
-The detail process of data cleansing and imputation can access through the [EDA and Data_Clensing Notebook](https://github.com/yasiSriLanka/dsc-capstone-loan-default-prediction/blob/main/EDA%20and%20Data_Clensing.ipynb)
+The detail process of data cleansing and imputation can access through the [EDA and Data_Clensing Notebook](https://github.com/yasiSriLanka/dsc-capstone-loan-default-prediction/blob/main/Code/EDA%20and%20Data_Clensing.ipynb)
 
 **Model Development**
 
@@ -71,7 +71,7 @@ The final model again trained with the combined dataset of train and test. Then 
 11. Stacking(XG Boost & Random Forest)
 12. Stacking(XG Boost, Random Forest & Logistic)
 
-The detail coding on python of Model training, hyper parameter tunning, evaluation can access through the [Creditworthiness Prediction Model Notebook](https://github.com/yasiSriLanka/dsc-capstone-loan-default-prediction/blob/main/Loan%20Default%20Prediction%20Model.ipynb). 
+The detail coding on python of Model training, hyper parameter tunning, evaluation can access through the [Creditworthiness Prediction Model Notebook](https://github.com/yasiSriLanka/dsc-capstone-loan-default-prediction/blob/main/Code/Creditworthiness%20Prediction%20Model.ipynb). 
 
 ## Results
 1. Comparison of Model Performance
