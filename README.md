@@ -24,6 +24,7 @@ The dataset contained 532K records of customer loan portfolio. The dataset conta
 The dataset didnot contained loan installment. Therefore calculated the loan installment using numpy method. Also derived different related ratios annual loan installment to annual income and loan to annual income ratios.
 
 ##Method
+
 **Data Clensing**
 
 Started the analysis understanding the data and premilinary EDA for better understanding the behaviour of the data set. Variable wise dig through to understand data behaviour and identified strategies like mean, median, most frequent to handle missing values based on the distributions of data. The imputations were done using pipeline methodology after segregating the data frame into train and test subsets. Then clense train and test data set exported to Data folder.
