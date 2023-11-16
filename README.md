@@ -31,7 +31,7 @@ Started the analysis understanding the data and premilinary EDA for better under
 
 The detail process of data cleansing and imputation can access through the [EDA and Data_Clensing Notebook](https://github.com/yasiSriLanka/dsc-capstone-loan-default-prediction/blob/main/EDA%20and%20Data_Clensing.ipynb)
 
-** Model Development**
+**Model Development**
 
 
 first categorized the precdictive variable and explanatory variables. Predictive variable - loan_status column and Explanatory variables - other columns defined as explanatory variables.
@@ -53,7 +53,7 @@ After analysing the model performance final model was selected considering the s
 
 The final model again trained with the combined dataset of train and test. Then validated model performance on the unseen data.
 
-** The fitted models are as follows.**
+**The fitted models are as follows.**
 1. Dummy Model
 2. Logistic Regression
 3. Logistic Regression with polinomial features
