@@ -68,7 +68,7 @@ The final model again trained with the combined dataset of train and test. Then 
 11. Stacking(XG Boost & Random Forest)
 12. Stacking(XG Boost, Random Forest & Logistic)
 
-The detail coding on python of Model training, hyper parameter tunning, evaluation can be access with the [link](https://github.com/yasiSriLanka/dsc-capstone-loan-default-prediction/blob/main/Loan%20Default%20Prediction%20Model.ipynb). 
+The detail coding on python of Model training, hyper parameter tunning, evaluation can access through the [Creditworthiness Prediction Model Notebook](https://github.com/yasiSriLanka/dsc-capstone-loan-default-prediction/blob/main/Loan%20Default%20Prediction%20Model.ipynb). 
 
 ## Results
 1. Comparison of Model Performance
