@@ -32,6 +32,8 @@ Started the analysis understanding the data and premilinary EDA for better under
 The detail process of data cleansing and imputation can access through the [EDA and Data_Clensing Notebook](https://github.com/yasiSriLanka/dsc-capstone-loan-default-prediction/blob/main/EDA%20and%20Data_Clensing.ipynb)
 
 ** Model Development**
+
+
 first categorized the precdictive variable and explanatory variables. Predictive variable - loan_status column and Explanatory variables - other columns defined as explanatory variables.
 Also explanatory variables categorized into numeric columns and categorical columns. 
 
@@ -42,6 +44,7 @@ Defined pipeline for scaling, column transfer and onehotencoding.
 In order to ease iterative model building process two functions defined.
 
 1.model_eval - build the model and evaluate the model based on test, logloss, classification summary, confusion matrix and area under ROC curve.
+
 
 2.model_eff - Evaluate the model based on test, logloss, classification summary, confusion matrix and area under ROC curve.
 
