@@ -8,8 +8,12 @@ Creditworthiness prediction is of paramount importance in the financial industry
 
 ## Data Understanding and Analysis
 
-###Source of Data
+##Source of Data
+The source for data is personal loan portfolio provided in the [Kaggle](https://www.kaggle.com/datasets/gauravduttakiit/bank-fears-loanliness).
 
+##Instruction to save the database and run notebooks.
+1. Download the database from [Kaggle](https://www.kaggle.com/datasets/gauravduttakiit/bank-fears-loanliness)
+2. There are three files in the download. Out of which select **train_indessa.csv** file and save the file in the **Data folder** in the name of **Loan_Default.csv** 
 
 ## Fitted models are
 1. Dummy Model
