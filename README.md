@@ -5,6 +5,9 @@ Develop a machine learning model to predict credit worthiness of borrowers.
 ## Business Understanding
 Creditworthiness prediction is of paramount importance in the financial industry as it plays a crucial role in mitigating risks and ensuring the stability of lending institutions. By harnessing advanced analytics and machine learning algorithms, financial institutions can assess the creditworthiness of potential borrowers more accurately. This proactive approach enables lenders to identify and flag high-risk individuals or businesses, reducing the likelihood of defaults. Predictive models analyze a numerous variables, such as credit history, income stability, loan premium, LTV etc. and providing a comprehensive evaluation of a borrower's ability to repay a loan. Timely prediction of loan defaults not only protects financial institutions from potential financial losses but also fosters responsible lending practices. Ultimately, the ability to forecast loan defaults empowers lenders to make informed decisions, maintain a healthy loan portfolio, and contribute to the overall stability of the financial system.
 
+
+<img width="382" alt="Creditworthiness" src="https://github.com/yasiSriLanka/dsc-capstone-loan-default-prediction/assets/141664072/39eb8c2e-3064-43ff-a28f-aeef08534941">
+
 The summary overview of the process followed and results available in the [Machine Learning Model - DefualtShield](https://github.com/yasiSriLanka/dsc-capstone-loan-default-prediction/blob/main/Machine%20Learning%20Model%20-%20DefaultShield.pptx) presentation.
 
 ## Data Understanding and Analysis
