@@ -27,7 +27,7 @@ The dataset contained 532K records of customer loan portfolio. The dataset conta
 
 The dataset didnot contained loan installment. Therefore calculated the loan installment using numpy method. Also derived different related ratios annual loan installment to annual income and loan to annual income ratios.
 
-##Method
+## Method
 
 **Data Clensing**
 
@@ -86,7 +86,7 @@ The detail coding on python of Model training, hyper parameter tunning, evaluati
 ## Conclusion
 It is recommended XGBoost as the best model with test score of 0.819 and logloss of 0.402 on unseen data for creditworthiness prediction. The stacking models had perfomed slightly higher with test 0.821 and logloss of 0.405. Considering the complexitity of stacking model it was decided to conclude XGBoost as the best model algorithm.
 
-###Final Recommendation : DefaultShield
+**Final Recommendation : DefaultShield**
 XGBoost classifier with following parameters
 
 booster='gbtree'
