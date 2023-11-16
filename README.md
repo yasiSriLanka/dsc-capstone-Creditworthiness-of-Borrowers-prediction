@@ -31,14 +31,25 @@ Started the analysis understanding the data and premilinary EDA for better under
 
 The detail process of data cleansing and imputation can access through the [EDA and Data_Clensing Notebook](https://github.com/yasiSriLanka/dsc-capstone-loan-default-prediction/blob/main/EDA%20and%20Data_Clensing.ipynb)
 
-** Model Development
+** Model Development**
+first categorized the precdictive variable and explanatory variables. Predictive variable - loan_status column and Explanatory variables - other columns defined as explanatory variables.
+Also explanatory variables categorized into numeric columns and categorical columns. 
 
+Train dataset segregated into train and validation data set. Therefore three data sets available where two data sets to be used for model building and one dataset to be used as unseen data for final model validation.
 
+Defined pipeline for scaling, column transfer and onehotencoding.
 
+In order to ease iterative model building process two functions defined.
 
+1.model_eval - build the model and evaluate the model based on test, logloss, classification summary, confusion matrix and area under ROC curve.
+2.model_eff - Evaluate the model based on test, logloss, classification summary, confusion matrix and area under ROC curve.
 
+The iteratively process carried out trying different models while observing the model performance. The used grid search had been used optimize the model by hypertunning parameters.  
+After analysing the model performance final model was selected considering the score, accuracy, f1 score and considering the less complexity of the model. 
 
-## Fitted models are
+The final model again trained with the combined dataset of train and test. Then validated model performance on the unseen data.
+
+** The fitted models are as follows.
 1. Dummy Model
 2. Logistic Regression
 3. Logistic Regression with polinomial features
