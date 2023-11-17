@@ -105,5 +105,5 @@ colsample_bytree=0.5
 
 subsample=0.8
 
-The model achieved accuracy of 0.82 with f1 score on crossvalidation of 0.531. The reported logloss on unseen data was 0.40.
+The model achieved accuracy of 0.82 with f1 score on crossvalidation of 0.531.
 
