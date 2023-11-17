@@ -88,6 +88,7 @@ The detail coding on python of Model training, hyper parameter tunning, evaluati
 It is recommended XGBoost as the best model with test score of 0.819 and logloss of 0.402 on unseen data for creditworthiness prediction. The stacking models had perfomed slightly higher with test 0.821 and logloss of 0.405. Considering the complexitity of stacking model it was decided to conclude XGBoost as the best model algorithm.
 
 **Final Recommendation : DefaultShield**
+
 XGBoost classifier with following parameters
 
 booster='gbtree'
